@@ -43,7 +43,7 @@ namespace NitroxLauncher
             InitializeComponent();
 
             // Pirate trigger should happen after UI is loaded.
-            Loaded += (sender, args) =>
+            /*Loaded += (sender, args) =>
             {
                 // This new pirate detected subscriber is possibly immediately invoked if pirate has been detected right now.
                 PirateDetection.PirateDetected += (o, eventArgs) =>
@@ -64,7 +64,7 @@ namespace NitroxLauncher
                     webBrowser.NavigateToString(string.Format(embed, "https://www.youtube.com/embed/i8ju_10NkGY?autoplay=1"));
                     SideBarPanel.Visibility = BackgroundImage.Visibility = Visibility.Hidden;
                 };
-            };
+            };*/
 
             logic = LauncherLogic.Create();
             launchPage = new LaunchGamePage(logic);
