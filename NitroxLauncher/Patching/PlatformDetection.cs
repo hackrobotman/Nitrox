@@ -5,7 +5,7 @@ namespace NitroxLauncher.Patching
 {
     public class PlatformDetection
     {
-        public static bool IsEpic(string subnauticaPath)
+        /*public static bool IsEpic(string subnauticaPath)
         {
 
             if (Directory.Exists(Path.Combine(subnauticaPath, ".egstore")))
@@ -13,7 +13,7 @@ namespace NitroxLauncher.Patching
                 return true;
             }
             return false;
-        }
+        }*/
 
         public static bool IsSteam(string subnauticaPath)
         {
